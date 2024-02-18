@@ -1,0 +1,32 @@
+.form-group {
+  display: flex;
+  margin-top: 20px;
+}
+.title {
+  margin-top: 8px;
+  width: 100px;
+}
+.form-submit-header {
+  margin-top: 0;
+  margin-left: auto;
+  background: #5488c7;
+  color: aliceblue;
+}
+.form-submit-header:hover {
+  opacity: 0.8;
+}
+.ck.ck-editor,
+.form-input {
+  width: 100%;
+}
+.form-submit-header,
+.form-input {
+  padding: 8px 16px;
+}
+.form-input {
+  outline: none;
+  border: 1px solid #ccc !important;
+}
+.ck.ck-editor:focus {
+  outline: #000;
+}

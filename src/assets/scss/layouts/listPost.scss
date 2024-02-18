@@ -1,0 +1,33 @@
+.post {
+  &-item {
+    padding: 0 20px 10px 0;
+    border-bottom: 1px solid #ccc;
+    + .post-item {
+      margin-top: 20px;
+    }
+    &-inner {
+      display: flex;
+      gap: 25px;
+    }
+    &-time {
+      margin-left: 20px;
+      color: rgb(155, 155, 155);
+      font-size: 1.4rem;
+      line-height: 24px;
+    }
+    &-title {
+      font-size: 1.8rem;
+      line-height: 24px;
+      font-weight: 500;
+    }
+  }
+  &-stats-item {
+    font-size: 1.4rem;
+    font-weight: 400;
+    > Svg {
+      width: 14px;
+      height: 14px;
+      object-fit: cover;
+    }
+  }
+}
